@@ -1,6 +1,4 @@
-
     console.log("hey");
-
     chrome.runtime.onMessage.addListener(
       function(request, sender, sendResponse){
           console.log(request.text);
@@ -14,3 +12,6 @@
       var msg = storedText
       const utterance = new SpeechSynthesisUtterance(msg)
       speechSynthesis.speak(utterance)})
+  document.getElementById("hello").innerHTML = storedText
+
+  
