@@ -1,0 +1,122 @@
+body {
+    min-width: 700px;
+    min-height: 300px;
+    background-color: transparent;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  .red {
+    color: #ff6868;
+  }
+  
+  .blue {
+    color: #017dfc;
+  }
+  
+  .nav {
+    width: 100vw;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    gap: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(212, 212, 212);
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .terms-head {
+    width: 80vw;
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .terms-subhead {
+    width: 95vw;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 2.6vw;
+    font-weight: 500;
+  }
+  
+  .light-txt {
+    font-size: 1.8vw;
+    font-weight: 300;
+  }
+  
+  .accordion-div {
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .accordion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 90vw;
+  }
+  
+  .accordion .contentBx {
+    position: relative;
+    margin: 10px 20px;
+  }
+  
+  .accordion .contentBx .label {
+    position: relative;
+    padding: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+    font-size: 2vw;
+  }
+  
+  .accordion .contentBx .label::before {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+  }
+  
+  .accordion .contentBx.active .label {
+    border: 1px solid #017dfc;
+    color: #017dfc;
+  }
+  
+  .accordion .contentBx.active .label::before {
+    content: "-";
+  }
+  
+  .accordion .contentBx .content {
+    position: relative;
+    background-color: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    font-size: 2vw;
+  }
+  
+  .accordion .contentBx.active .content {
+    height: 80px;
+    padding: 10px;
+  }
+  
