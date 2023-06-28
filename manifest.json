@@ -13,7 +13,7 @@
   "content_scripts":[
     {
       "js": ["content.js"],
-      "matches":["https://developer.chrome.com/docs/extensions/mv3/getstarted/tut-reading-time/"]
+      "matches":["https://legalvision.com.au/examples-unfair-contract-terms/"]
     }
   ]
 }

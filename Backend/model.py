@@ -5,23 +5,20 @@ import openai
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = ''
+openai.api_key = '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'
 
 @app.route("/get", methods=['POST'])
 def helloWorld():
     ans = request.get_json()
-    text = ans.get('text')
-    response = {'message':'text successful','text':text}
-    finalText = response['text']
-    print(response['text'])
+    text = ans.get('tempText')
+    print(text)
+    
+    completion = openai.Completion.create(
+    model ="ada:ft-personal-2023-06-28-05-18-30",
+    prompt=text)
 
-    # completion = openai.Completion.create(
-    # model ="",
-    # prompt=finalText)
+    print(completion)
+    return jsonify(completion)
 
-    print(finalText)
-    # print(completion)
-    # return completion
-    return jsonify(finalText)
-
-app.run(debug=True, port=8001)
+if __name__ == '__main__':
+   app.run(debug = True, port =8001)

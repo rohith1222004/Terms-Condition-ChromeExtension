@@ -5,13 +5,11 @@ if (article) {
     console.log(text);
 }
 //sending message
-chrome.runtime.sendMessage({
-    text 
-  });
 
 //Post Request
 const url = 'http://127.0.0.1:8001/get'
  fetch(url,{
+    mode:'cors',
     method: 'POST',
     headers:{
         'Content-Type':'application/json',
@@ -19,9 +17,16 @@ const url = 'http://127.0.0.1:8001/get'
     body:JSON.stringify({text}),
  })
     .then(res => res.json())
-    .then(text => {
-        console.log(text);
+    .then(datatext => {
+        // console.log(text.choices[0].text);
+        console.log(datatext.choices[0].text);
+        chrome.runtime.sendMessage({
+            // text
+            // data:text
+            datatext
+          });
     })
     .catch(error =>{
         console.error('Error',error);
     })
+
