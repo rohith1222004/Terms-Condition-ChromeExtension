@@ -3,7 +3,7 @@
 As people increasingly neglect reading lengthy terms and conditions, our Chrome extension offers a solution. It presents critical information concisely, empowering users to make informed decisions. Seamlessly integrated into browsing, it saves time and ensures important details aren't missed. 
 
 
-![Screenshot (292)](https://github.com/rohith1222004/Terms-Condition-ChromeExtension/assets/92452259/7f0bdf5b-6f71-4ad7-a1c3-f6b9bd1be4f5)
+![Screenshot (292)](https://github.com/rohith1222004/Terms-Condition-ChromeExtension/assets/92452259/ea0537f1-75f1-4c5e-b995-70762d7a202b)
 
 
 # Build With
