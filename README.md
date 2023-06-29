@@ -16,15 +16,12 @@ To run this project on your local machine, follow the steps mentioned below
 * Fork this project
 ```
  pip install Flask
-
 ```
 ```
- pip install openai
-
+pip install openai
 ```
 ## To run Flask server
 ```
  python model.py
-
 ```
 # Load File in Chrome Extension
