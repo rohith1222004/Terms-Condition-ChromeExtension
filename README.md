@@ -27,3 +27,4 @@ pip install openai
  python model.py
 ```
 # Load File in Chrome Extension
+![Screen1](https://github.com/rohith1222004/Terms-Condition-ChromeExtension/assets/92452259/67c9559f-249c-4ee8-be3e-e5f7ba11b54c)
