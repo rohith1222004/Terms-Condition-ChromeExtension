@@ -6,3 +6,5 @@ As people increasingly neglect reading lengthy terms and conditions, our Chrome 
 <img src ="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 <img src ="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+# Getting Started
+To run this project on your local machine, follow the steps mentioned below
