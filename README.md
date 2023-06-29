@@ -14,9 +14,9 @@ As people increasingly neglect reading lengthy terms and conditions, our Chrome 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 <img src= "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 
-# Getting Started
+# Getting Started 👇
 To run this project on your local machine, follow the steps mentioned below
-## Prerequisites
+## Prerequisites 
 <img src ="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
 
 ## <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠️</g-emoji>  Installation Steps
