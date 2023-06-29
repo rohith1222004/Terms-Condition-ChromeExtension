@@ -11,6 +11,7 @@ As people increasingly neglect reading lengthy terms and conditions, our Chrome 
 To run this project on your local machine, follow the steps mentioned below
 ## Prerequisites
 <img src ="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
+
 ## <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠️</g-emoji>  Installation Steps
 * Fork this project
-$ copy code 
+```$ pip install Flask```
