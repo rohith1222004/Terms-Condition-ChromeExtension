@@ -31,7 +31,7 @@ pip install openai
 ```
  python model.py
 ```
-# Load File in Chrome Extension
+# Load File in Chrome 
 ## Step 1: Click Chrome Extension Symbol
 ![Screen1](https://github.com/rohith1222004/Terms-Condition-ChromeExtension/assets/92452259/ff6cfc73-5fdd-46ff-b6e5-fef3bef93538)
 ## Step 2: Click Manage Extension 
