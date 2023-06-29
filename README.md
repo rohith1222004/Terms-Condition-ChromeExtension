@@ -20,7 +20,7 @@ To run this project on your local machine, follow the steps mentioned below
 ```
 pip install openai
 ```
-## To run Flask server
+## 🚀 To run flask server
 ```
  python model.py
 ```
