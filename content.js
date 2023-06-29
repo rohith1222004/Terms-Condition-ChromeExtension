@@ -4,6 +4,9 @@ if (article) {
     text = article.textContent + text;
     console.log(text);
 }
+const sentence = text.split(/[.!?]+/);
+console.log(text);
+console.log(sentence);
 //sending message
 
 //Post Request
@@ -19,6 +22,7 @@ const url = 'http://127.0.0.1:8001/get'
     .then(res => res.json())
     .then(datatext => {
         // console.log(text.choices[0].text);
+        // console.log(datatext.choices[0].text);
         console.log(datatext.choices[0].text);
         chrome.runtime.sendMessage({
             // text

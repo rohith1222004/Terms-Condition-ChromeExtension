@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,4 +13,187 @@
     <button id="btn">speak</button>
 </body>
 <script src="popup.js" ></script>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="index.css" />
+  </head>
+  <body>
+    <h1>Critical Terms Are :</h1>
+    <h2 id="data">hello</h2>
+  </body>
+  <script src="index.js"></script>
+  <script src="contentScript.js"></script>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    /> -->
+    <!-- <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    /> -->
+
+    <title>Critical Terms</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <!-- <img width="45px" height="45px" src="./Assets/logo.png" alt="Logo" /> -->
+
+      <div class="options">
+        <img
+          class="settings"
+          width="25px"
+          height="25px"
+          style="margin-right: 10px"
+          src="./Assets/settings.png"
+          alt="Settings Icon"
+        />
+        <a href="./index.html"
+          >
+          <img
+            width="25px"
+            height="25px"
+            style="cursor: pointer"
+            src="./Assets/close.png"
+            alt="Close Icon"
+            class="close"
+        /></a>
+      </div>
+    </div>
+
+    <div class="terms">
+      <h4 class="terms-head">
+        Here is an explanation of the terms and conditions that apply to the
+        webpage you have requested.
+      </h4>
+    </div>
+
+    <div class="accordion-div">
+      <h6 class="terms-subhead red">
+        Critical Terms
+        <svg
+          style="margin-bottom: 3px"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M2.725 21q-.275 0-.5-.138t-.35-.362q-.125-.225-.138-.488t.138-.512l9.25-16q.15-.25.388-.375T12 3q.25 0 .488.125t.387.375l9.25 16q.15.25.138.513t-.138.487q-.125.225-.35.363t-.5.137H2.725Zm1.725-2h15.1L12 6L4.45 19ZM12 18q.425 0 .713-.288T13 17q0-.425-.288-.713T12 16q-.425 0-.713.288T11 17q0 .425.288.713T12 18Zm0-3q.425 0 .713-.288T13 14v-3q0-.425-.288-.713T12 10q-.425 0-.713.288T11 11v3q0 .425.288.713T12 15Zm0-2.5Z"
+          />
+        </svg>
+      </h6>
+      <div class="accordion">
+        <div class="contentBx">
+          <div class="label">List One</div>
+          <div class="content" id="hello">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            reiciendis, a vero exercitationem fugit necessitatibus rerum cumque
+            unde! Rerum, officiis deserunt at corporis harum illum sint.
+          </div>
+        </div>
+
+        <div class="contentBx">
+          <div class="label">List Two</div>
+          <div class="content" id="data2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            reiciendis, a vero exercitationem fugit necessitatibus rerum cumque
+            unde! Rerum, officiis deserunt at corporis harum illum sint.
+          </div>
+        </div>
+
+        <div class="contentBx">
+          <div class="label">List Three</div>
+          <div class="content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            reiciendis, a vero exercitationem fugit necessitatibus rerum cumque
+            unde! Rerum, officiis deserunt at corporis harum illum sint.
+          </div>
+        </div>
+
+        <div class="contentBx">
+          <div class="label">List Four</div>
+          <div class="content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            reiciendis, a vero exercitationem fugit necessitatibus rerum cumque
+            unde! Rerum, officiis deserunt at corporis harum illum sint.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-div">
+      <h6 class="terms-subhead blue">
+        Typical terms
+        <span class="light-txt">(which may not have an impact on you)</span>
+      </h6>
+      <div class="accordion">
+        <div class="contentBx">
+          <div class="label">List One</div>
+          <div class="content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            reiciendis, a vero exercitationem fugit necessitatibus rerum cumque
+            unde! Rerum, officiis deserunt at corporis harum illum sint.
+          </div>
+        </div>
+
+        <div class="contentBx">
+          <div class="label">List Two</div>
+          <div class="content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            reiciendis, a vero exercitationem fugit necessitatibus rerum cumque
+            unde! Rerum, officiis deserunt at corporis harum illum sint.
+          </div>
+        </div>
+
+        <div class="contentBx">
+          <div class="label">List Three</div>
+          <div class="content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            reiciendis, a vero exercitationem fugit necessitatibus rerum cumque
+            unde! Rerum, officiis deserunt at corporis harum illum sint.
+          </div>
+        </div>
+
+        <div class="contentBx">
+          <div class="label">List Four</div>
+          <div class="content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            reiciendis, a vero exercitationem fugit necessitatibus rerum cumque
+            unde! Rerum, officiis deserunt at corporis harum illum sint.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./accordion.js"></script>
+    <script src="./popup.js"></script>
+  </body>
 </html>

@@ -8,10 +8,13 @@
 
   var storedText = localStorage.getItem('completionText'); 
   console.log(storedText);
+  document.getElementById("hello").innerHTML = storedText
   document.getElementById("btn")
   .addEventListener("click",() =>{
       var msg = storedText
       const utterance = new SpeechSynthesisUtterance(msg)
       speechSynthesis.speak(utterance)})
-  document.getElementById("hello").innerHTML = storedText
+//   chrome.runtime.reload();
+//   localStorage.clear('completionText')
+
   

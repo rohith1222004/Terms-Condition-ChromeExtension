@@ -10,10 +10,13 @@
   "background": {
     "service_worker": "background.js"
 },
+"content_security_policy": {
+  "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline' https://music.yandex.ru/;"
+},
   "content_scripts":[
     {
       "js": ["content.js"],
-      "matches":["https://legalvision.com.au/examples-unfair-contract-terms/"]
+      "matches":["https://www.termsfeed.com/blog/legal-agreements-chrome-extensions/"]
     }
   ]
 }

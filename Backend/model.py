@@ -12,9 +12,10 @@ def helloWorld():
     ans = request.get_json()
     text = ans.get('tempText')
     print(text)
-    
+
     completion = openai.Completion.create(
-    model ="ada:ft-personal-2023-06-28-05-18-30",
+    # model ="ada:ft-personal-2023-06-28-05-18-30",
+    model ="davinci:ft-personal-2023-06-28-14-12-41",
     prompt=text)
 
     print(completion)
