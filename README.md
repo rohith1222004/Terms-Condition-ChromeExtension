@@ -9,3 +9,5 @@ As people increasingly neglect reading lengthy terms and conditions, our Chrome 
 
 # Getting Started
 To run this project on your local machine, follow the steps mentioned below
+
+##  Installation Steps
