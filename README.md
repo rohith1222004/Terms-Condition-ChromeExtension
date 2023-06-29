@@ -36,7 +36,7 @@ pip install openai
 ```
 # Load File in Chrome 
 ## Step 1: Click Chrome Extension Symbol
-![Screen1](https://github.com/rohith1222004/Terms-Condition-ChromeExtension/assets/92452259/ff6cfc73-5fdd-46ff-b6e5-fef3bef93538)
+![Screen1](https://github.com/rohith1222004/Terms-Condition-ChromeExtension/assets/92452259/b9895830-903e-4923-9d30-303719b87944)
 ## Step 2: Click Manage Extension 
 ![Screen2](https://github.com/rohith1222004/Terms-Condition-ChromeExtension/assets/92452259/90033c38-06a9-4092-946e-613eda77ee52)
 ## Step 3: Click Load unpacked
