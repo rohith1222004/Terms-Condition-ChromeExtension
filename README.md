@@ -14,4 +14,17 @@ To run this project on your local machine, follow the steps mentioned below
 
 ## <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠️</g-emoji>  Installation Steps
 * Fork this project
-```$ pip install Flask```
+```
+ pip install Flask
+
+```
+```
+ pip install openai
+
+```
+## To run Flask server
+```
+ python model.py
+
+```
+# Load File in Chrome Extension
