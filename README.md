@@ -10,4 +10,5 @@ As people increasingly neglect reading lengthy terms and conditions, our Chrome 
 # Getting Started
 To run this project on your local machine, follow the steps mentioned below
 
+<g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠️</g-emoji> 
 ##  Installation Steps
